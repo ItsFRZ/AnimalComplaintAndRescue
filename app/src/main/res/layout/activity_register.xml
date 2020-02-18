@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/layout1_design"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Signup"
+            android:layout_marginTop="140dp"
+            android:layout_alignParentEnd="true"
+            android:textSize="28dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/layout2_design">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Login"
+            android:onClick="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"></TextView>
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:hint="Full Name"
+        android:id="@+id/rname"
+        android:background="@drawable/editx_design"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#1F1A1A"
+        android:textSize="22dp"
+        android:textColor="#292020"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:id="@+id/rmobile"
+        android:inputType="number"
+        android:hint="Mobile Number"
+        android:textColorHint="#292020"
+        android:background="@drawable/editx_design"
+        android:textColor="#292020"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/remail1"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/remail1"
+        android:hint="Email"
+        android:background="@drawable/editx_design"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#1F1A1A"
+        android:textSize="22dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/rname"
+        android:textColor="#292020"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/rpassword1"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:layout_below="@id/rmobile"
+        android:textColorHint="#292020"
+        android:background="@drawable/editx_design"
+        android:textColor="#292020"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"></EditText>
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rpassword1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_design"
+        android:text="SignUp"
+        android:onClick="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"></Button>
+
+</RelativeLayout>

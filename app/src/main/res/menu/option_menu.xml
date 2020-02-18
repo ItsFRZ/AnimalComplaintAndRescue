@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:title="Logout"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+</menu>

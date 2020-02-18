@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#2B2727"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#000"
+            android:text="Rescue"
+            android:textSize="25dp"
+            android:onClick="Rescue"
+            android:textAllCaps="false"
+            android:textColor="#FF0000"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"></Button>
+
+
+        <Button
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#000"
+            android:text="Complaint"
+            android:onClick="Complaint"
+            android:textSize="25dp"
+            android:textColor="#FF0000"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"></Button>
+
+
+        <Button
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#000"
+            android:text="Advertisement"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textColor="#FF0000"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"></Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

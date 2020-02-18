@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:background="@drawable/layout1_design">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="20dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/layout2_design"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:text="SignUp"
+            android:onClick="Signup"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/loginemail1"
+        android:hint="Email"
+        android:background="@drawable/editx_design"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#1F1A1A"
+        android:textSize="22dp"
+        android:textColor="#292020"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/loginpassword1"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColorHint="#292020"
+        android:background="@drawable/editx_design"
+        android:textColor="#292020"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/loginemail1"
+        android:layout_height="wrap_content"></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Forget Password ?"
+        android:layout_below="@id/loginpassword1"
+        android:textColor="#FF0055"
+        android:textSize="20dp"
+        android:onClick="Forget"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginpassword1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_design"
+        android:text="SignIn"
+        android:onClick="Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"></Button>
+
+
+
+</RelativeLayout>

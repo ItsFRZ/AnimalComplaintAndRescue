@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Complaint">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/cimage123"
+            android:scaleType="fitXY"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/imageview_design"
+            android:visibility="gone"
+            android:layout_height="260dp"></ImageView>
+
+        <EditText
+            android:layout_width="300dp"
+            android:hint="Title"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:layout_below="@id/cimage123"
+            android:gravity="center"
+            android:id="@+id/ctitle123"
+            android:background="@drawable/editx_design"
+            android:layout_height="wrap_content"></EditText>
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:hint="Description"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_below="@id/ctitle123"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/editx_design"
+            android:id="@+id/cdescription123"
+            android:layout_height="wrap_content"></EditText>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_marginTop="100dp"
+            android:text="Gallery"
+            android:layout_below="@id/cdescription123"
+            android:background="@drawable/button_design"
+            android:textAllCaps="false"
+            android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true"
+            android:onClick="Gallery"
+            android:textColor="#FFFFFF"
+            android:id="@+id/gall12"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"></Button>
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_marginTop="50dp"
+            android:text="Submit"
+            android:textStyle="bold|italic"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/gall12"
+            android:background="@drawable/button_design"
+            android:onClick="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"></Button>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
