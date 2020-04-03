@@ -14,21 +14,21 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-    FirebaseAuth firebaseAuth;
+    FirebaseAuth firebaseAuth; // Firebase Authentication Class
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-        firebaseAuth = FirebaseAuth.getInstance();
+        firebaseAuth = FirebaseAuth.getInstance(); // Calling Intance Object
 
 
     }
 
     public void Rescue(View view) {
 
-        Intent intent = new Intent(getApplicationContext(),Rescue.class);
+        Intent intent = new Intent(getApplicationContext(),Rescue.class); // Simple Intent is used here
         startActivity(intent);
 
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
-    protected void onStart() {
+    protected void onStart() { // Checking Is user is null or not if null then first go for login credentials
         super.onStart();
 
         FirebaseUser user = firebaseAuth.getCurrentUser();
