@@ -18,7 +18,7 @@
         <Button
             android:layout_height="200dp"
             android:layout_weight="1"
-            android:background="#000"
+            android:background="@drawable/rca_design"
             android:text="Rescue"
             android:textSize="25dp"
             android:onClick="Rescue"
@@ -31,7 +31,7 @@
         <Button
             android:layout_height="200dp"
             android:layout_weight="1"
-            android:background="#000"
+            android:background="@drawable/rca_design"
             android:text="Complaint"
             android:onClick="Complaint"
             android:textSize="25dp"
@@ -44,7 +44,7 @@
         <Button
             android:layout_height="200dp"
             android:layout_weight="1"
-            android:background="#000"
+            android:background="@drawable/rca_design"
             android:text="Advertisement"
             android:textAllCaps="false"
             android:textSize="25dp"

@@ -26,6 +26,7 @@ public class Register extends AppCompatActivity {
     FirebaseAuth firebaseAuth;
     DatabaseReference databaseReference;
     EditText remail12,rpass12,rmobile12,rname12;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
